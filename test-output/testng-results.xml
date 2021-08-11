@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-02T17:56:31Z" name="Default suite" finished-at="2021-08-02T17:56:59Z" duration-ms="28092">
+  <suite started-at="2021-08-10T16:08:47Z" name="Default suite" finished-at="2021-08-10T16:09:52Z" duration-ms="64578">
     <groups>
     </groups>
-    <test started-at="2021-08-02T17:56:31Z" name="Default test" finished-at="2021-08-02T17:56:59Z" duration-ms="28092">
+    <test started-at="2021-08-10T16:08:47Z" name="Default test" finished-at="2021-08-10T16:09:52Z" duration-ms="64578">
       <class name="Selenium.Java.AutoFramework.HomeTest">
-        <test-method is-config="true" signature="basetup()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@127a7a2e]" started-at="2021-08-02T17:56:31Z" name="basetup" finished-at="2021-08-02T17:56:31Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="basetup()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:08:47Z" name="basetup" finished-at="2021-08-10T16:08:47Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basetup -->
-        <test-method is-config="true" signature="presetup()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@127a7a2e]" started-at="2021-08-02T17:56:31Z" name="presetup" finished-at="2021-08-02T17:56:43Z" duration-ms="11584" status="PASS">
+        <test-method is-config="true" signature="presetup()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:08:49Z" name="presetup" finished-at="2021-08-10T16:09:06Z" duration-ms="16856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- presetup -->
-        <test-method signature="setup()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@127a7a2e]" started-at="2021-08-02T17:56:43Z" name="setup" finished-at="2021-08-02T17:56:59Z" duration-ms="16177" status="PASS">
+        <test-method signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:09:06Z" name="searchTest" data-provider="searchData" finished-at="2021-08-10T16:09:20Z" duration-ms="14239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon.com : Computer]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@127a7a2e]" started-at="2021-08-02T17:56:59Z" name="teardown" finished-at="2021-08-02T17:56:59Z" duration-ms="291" status="PASS">
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:09:20Z" name="teardown" finished-at="2021-08-10T16:09:20Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="presetup()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:09:20Z" name="presetup" finished-at="2021-08-10T16:09:36Z" duration-ms="16464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presetup -->
+        <test-method signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:09:36Z" name="searchTest" data-provider="searchData" finished-at="2021-08-10T16:09:52Z" duration-ms="15354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon.com : Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium.Java.AutoFramework.HomeTest@2a225dd7]" started-at="2021-08-10T16:09:52Z" name="teardown" finished-at="2021-08-10T16:09:52Z" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

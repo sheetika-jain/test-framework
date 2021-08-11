@@ -1,10 +1,9 @@
 package Selenium.Java.AutoFramework;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-
 import Utils.ConfigUtil;
 import Utils.WebDriverUtil;
 
@@ -23,7 +22,7 @@ public class BaseTest {
 		browser = configUtil.getProperty("browser");
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	
 	public void presetup() {
 	
@@ -34,10 +33,10 @@ public class BaseTest {
 		driver.manage().window().maximize();
 	}
 
-	@AfterTest
+	@AfterMethod
 	
 	public void teardown() {
-		driver.close();
+		driver.quit();
 	}
 
 }
